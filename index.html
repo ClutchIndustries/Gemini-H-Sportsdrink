@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAENA | Investor Pitch Deck</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Avenir', sans-serif; overflow: hidden; background-color: #0c0b0b; color: #eae4d8; }
+        .slide-container { position: relative; width: 600vw; height: 100vh; display: flex; transition: transform 0.8s ease-in-out; }
+        .slide { width: 100vw; height: 100vh; display: flex; flex-direction: column; justify-content: space-between; padding: 50px 80px; box-sizing: border-box; }
+        h1, h2 { font-weight: 900; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
+        h1 { font-size: 4.5rem; line-height: 1; margin-bottom: 20px; }
+        h2 { font-size: 2.5rem; margin-bottom: 30px; border-bottom: 3px solid #d13019; display: inline-block; padding-bottom: 5px; }
+        p { font-size: 1.3rem; line-height: 1.5; color: #918d87; max-width: 800px; }
+        .badge { display: inline-block; padding: 8px 18px; background: #2e2c2c; color: #f2aa2e; border-radius: 50px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 50px; }
+        .stat-card { background: #141313; border: 1px solid #2e2c2c; padding: 30px; border-radius: 8px; text-align: center; }
+        .stat-value { font-size: 3rem; font-weight: 900; color: #f2aa2e; }
+        .stat-label { font-size: 1rem; color: #918d87; text-transform: uppercase; letter-spacing: 1px; }
+        ul.checklist { list-style: none; padding: 0; }
+        ul.checklist li { font-size: 1.2rem; margin-bottom: 15px; display: flex; align-items: center; }
+        ul.checklist li::before { content: "✓"; color: #d13019; font-weight: 900; margin-right: 15px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 30px; font-size: 1.1rem; }
+        th, td { text-align: left; padding: 15px; border-bottom: 1px solid #2e2c2c; }
+        th { text-transform: uppercase; color: #918d87; }
+        .controls { position: absolute; bottom: 30px; right: 80px; display: flex; gap: 20px; z-index: 100; }
+        .btn { padding: 10px 25px; border: 2px solid #eae4d8; background: transparent; color: #eae4d8; font-weight: 700; text-transform: uppercase; cursor: pointer; border-radius: 4px; }
+        .btn:hover { background: #eae4d8; color: #0c0b0b; }
+        .active-btn { background: #d13019; border-color: #d13019; color: #fff; }
+    </style>
+</head>
+<body>
+
+    <div class="slide-container" id="container">
+
+        <!-- SLIDE 1: Problem / Opportunity (Immediate Pitch) -->
+        <div class="slide">
+            <div>
+                <span class="badge">The First 10 Seconds: Simple & Powerful</span>
+                <h1>WE FUEL THE<br>BLUE-COLLAR GRIND</h1>
+                <p>Corporate energy drinks are TRANSACTIONAL and SYNTHETIC. The 34 million Latino workers and athletes powering America demand energy that reflects their **respect, heritage, and physical reality.**</p>
+                <div class="grid" style="grid-template-columns: 1fr 1fr; margin-top: 30px; gap: 20px;">
+                    <img src="image_6.png" style="width:100%; border-radius:8px;" alt="Visualizing the need">
+                    <p style="font-size:1.1rem; display: flex; align-items: center; padding-left:20px; color:#fff;">This is the $3.2B white space opportunity: An authentic energy brand that is **for us, by us.**</p>
+                </div>
+            </div>
+            <p style="color:#d13019; font-weight:700;">[Image_6: Job-Site Demand meets Cultural Opportunity]</p>
+        </div>
+
+        <!-- SLIDE 2: Solution (The Product Line) -->
+        <div class="slide">
+            <div>
+                <h2>Introducing FAENA</h2>
+                <p>The first energy line built specifically for the hands that build America. Authenticity is in our formulation, not just our marketing.</p>
+                <div class="grid">
+                    <div class="stat-card">
+                        <img src="image_7.png" style="width:100%; border-radius:4px; margin-bottom:15px;" alt="Mango Chile">
+                        <div class="stat-label">Mango Chile (Anchor)</div>
+                    </div>
+                    <div class="stat-card">
+                        <img src="image_2.png" style="width:100%; border-radius:4px; margin-bottom:15px;" alt="The Cancha Line">
+                        <div class="stat-label">Cancha Line (GTM Support)</div>
+                    </div>
+                    <ul class="checklist" style="display:flex; flex-direction:column; justify-content:center; align-items:flex-start; padding-left:20px;">
+                        <li>200mg Natural Caffeine (Guayusa)</li>
+                        <li>100% Mexican Cane Sugar</li>
+                        <li>Organic Electrolytes (Baja Sea Salt)</li>
+                        <li>Natural Maíz Morado Coloring</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="color:#d13019; font-weight:700;">[Image_7 and Image_2: Industrial Respect meets Heritage Formulations]</p>
+        </div>
+
+        <!-- SLIDE 3: Brand Identity & Voice (Market Fit) -->
+        <div class="slide">
+            <div>
+                <h2>Liquid Deathattitude.<br>Red Bull Utility.</h2>
+                <div class="grid" style="grid-template-columns: 1.2fr 1fr; gap: 30px;">
+                    <div style="background: #141313; padding:20px; border-radius:8px;">
+                        <img src="image_8.png" style="width:100%;" alt="Matte Black Industrial Can">
+                    </div>
+                    <ul class="checklist" style="padding-top:20px;">
+                        <li><strong>Tonally Irreverent:</strong> Anti-corporate, culture-first, and raw.</li>
+                        <li><strong>Authentic Heritage:</strong> We use industrial textures (image_1.png) and community storytelling.</li>
+                        <li><strong>No Mainstream Cosplay:</strong> Zero clichéd sugar skulls or generic tropical flavors.</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="color:#d13019; font-weight:700;">[Image_8: Mat Black, Rugged, Stamped Metallic, and Sweaty]</p>
+        </div>
+
+        <!-- SLIDE 4: Athlete & Partner Strategy (Authentic Pull) -->
+        <div class="slide">
+            <div>
+                <h2>Partners Powered by the Grind</h2>
+                <div class="grid" style="grid-template-columns: 1fr 1fr; gap:30px;">
+                    <img src="image_9.png" style="width:100%; border-radius:8px;" alt="Isaac Pitbull Cruz">
+                    <div style="display:flex; flex-direction:column; justify-content:center;">
+                        <h3 style="color:#fff;">#1: ISAAC "PITBULL" CRUZ</h3>
+                        <p style="font-size:1.1rem; color:#fff;">Epitomizes the working-class Mexican fighter. Relentless forward motion.</p>
+                        <p style="font-size:1rem; color:#918d87; margin-top:10px;">Structure: 2% Equity / Performance Royalty / Co-Founder status.</p>
+                        <ul class="checklist" style="margin-top:20px; font-size:1rem;">
+                            <li>Audience: Hardcore, multi-generational Hispanic fight fans.</li>
+                            <li>Fit: 10/10. He is a folk hero.</li>
+                        <li>*Validation: Must clear major beverage endorsements.*</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p style="color:#d13019; font-weight:700;">[Image_9: A Fighter and a Trade Icon standing together]</p>
+        </div>
+
+        <!-- SLIDE 5: Go-to-Market (The DSD Model) -->
+        <div class="slide">
+            <div>
+                <h2>Dominating Independent DSD</h2>
+                <p> Mainstream grocery is a Phase 3 goal. We begin by securing key independent points of consumption and validation.</p>
+                <div class="grid">
+                    <div class="stat-card">
+                        <div class="stat-value">GTM: P1</div>
+                        <div class="stat-label">Independent Route (Loncheras)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">GTM: P2</div>
+                        <div class="stat-label">Bodegas & Carnicerías</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">DSD: Local</div>
+                        <div class="stat-label">Independent Beer Trucks</div>
+                    </div>
+                </div>
+            </div>
+            <p style="color:#d13019; font-weight:700;">[Image_11: Website Mockup showing DSD structure and sampling map]</p>
+        </div>
+
+        <!-- SLIDE 6: The Ask & Financial Summary (The Investor Close) -->
+        <div class="slide">
+            <div>
+                <h2>The Ask: $1.8M Seed Round</h2>
+                <table>
+                    <tr>
+                        <th>Line Item</th>
+                        <th>Per Can (Est)</th>
+                        <th>Per Case (24pk)</th>
+                        <th>Use of Funds Allocation</th>
+                    </tr>
+                    <tr>
+                        <td>COGS (Maíz Morado Blend)</td>
+                        <td>$0.48</td>
+                        <td>$11.52</td>
+                        <td>**50% Production & Inventory**</td>
+                    </tr>
+                    <tr>
+                        <td>Total COGS to Brand</td>
+                        <td>$0.67</td>
+                        <td>$16.08</td>
+                        <td>**30% Sales & DSD Trade Spend**</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wholesale Price</strong> (To Distributor)</td>
+                        <td><strong>$1.67</strong></td>
+                        <td><strong>$40.00</strong></td>
+                        <td>**20% Brand, Talent & G&A**</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#d13019;">Year 1 Velocity Goal (4 Markets)</td>
+                        <td colspan="3" style="text-align:right;">650 Accounts @ 1.8 cases/door/wk</td>
+                    </tr>
+                </table>
+                <div class="grid" style="margin-top: 30px;">
+                    <img src="image_10.png" style="width:100%; border-radius:8px;" alt="Community and Data">
+                    <div style="grid-column: span 2; display:flex; align-items:center; padding-left:20px; font-size:1.1rem;">This capital gives us 18 months of runway to secure 4 Tier-1 DSD partnerships and prove regional velocity before Series A.</div>
+                </div>
+            </div>
+            <p style="color:#d13019; font-weight:700;">[Image_10: A visual composite of family, work, and hard data]</p>
+        </div>
+
+    </div>
+
+    <!-- Navigation -->
+    <div class="controls">
+        <button class="btn" onclick="setSlide(0)">Problem</button>
+        <button class="btn" onclick="setSlide(1)">Product</button>
+        <button class="btn" onclick="setSlide(2)">Brand</button>
+        <button class="btn" onclick="setSlide(3)">Partner</button>
+        <button class="btn" onclick="setSlide(4)">GTM</button>
+        <button class="btn active-btn" onclick="setSlide(5)">The Ask</button>
+    </div>
+
+    <script>
+        const container = document.getElementById('container');
+        const buttons = document.querySelectorAll('.controls .btn');
+
+        function setSlide(index) {
+            container.style.transform = `translateX(-${index * 100}vw)`;
+            buttons.forEach((btn, i) => {
+                btn.classList.toggle('active-btn', i === index);
+            });
+        }
+    </script>
+</body>
+</html>
